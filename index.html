@@ -10,9 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <header>
       <nav>
         <a href="#"><li class="nav-bttn">Home</li></a>
@@ -20,9 +25,10 @@
         <a href="contact.html"><li class="nav-bttn">Contact</li></a>
       </nav>
     </header>
+    <!-- Main Page -->
     <main>
       <section>
-        <h1 class="intro-title">Hi, I'm Tereza</h1>
+        <h1>Hi, I'm Tereza</h1>
         <article>
           <div>
             <img
@@ -36,9 +42,9 @@
             <p>
               My passion lies in the world of aesthetic. As I graduated high
               school as a Fashion Designer I continued my studies in Serbia,
-              educating myself in Graphic Design.On one hand, I'm deeply in love
-              with art, illustration, drawing, and painting and on the other, I
-              deeply appreciate technology.
+              educating myself in Graphic Design. On one hand, I'm deeply in
+              love with art, illustration, drawing, and painting and on the
+              other, I deeply appreciate technology.
               <br /><br />
               In my teen era, I immersed myself in video games but also into
               photography and design, sharing my explorations through a blog. It
@@ -88,7 +94,38 @@
           </div>
         </article>
       </section>
+
+      <!-- Scroll to Top -->
+
+      <button onclick="topFunction()" id="BackTopBttn" title="Go to top"">
+        <span class="material-symbols-outlined"> arrow_forward_ios </span>
+      </button>
+      <!-- Scroll top top JS Code copied from https://www.w3schools.com/ -->
+      <script>
+        // Get the button
+        let mybutton = document.getElementById("BackTopBttn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
     </main>
+
+    <!-- Footer -->
+
     <footer>
       <a href="contact.html"
         ><img
