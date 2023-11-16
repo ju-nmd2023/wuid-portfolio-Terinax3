@@ -1,187 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="scroll-to-top.js" type="text/javascript"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <title>Portfolio</title>
+       <!-- Scroll top top JS Code copied from https://www.w3schools.com/ -->
+       <script type="text/javascript" src="gototop.js" defer></script>
+    <title>Tereza's Portfolio - Web Design</title>
   </head>
   <body>
+    <!-- Header & Navigation Bar -->
     <header>
       <nav>
-        <a href="index.html"><li class="nav-bttn">Home</li></a>
-        <a href="portfolio.html"><li class="nav-bttn">Portfolio</li></a>
-        <a href="contact.html"><li class="nav-bttn">Contact</li></a>
+        <ol>
+          <a href="index.html"><li>Home</li></a>
+          <a href="portfolio.html"><li>Portfolio</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ol>
       </nav>
     </header>
+
+    <!-- Main Content of the Page -->
     <main>
-      <section>
-        <article class="swap">
-          <div>
-            <h2>Imagidice</h2>
-            <p>
-              As a starting project my brother and I set ourselves a challenging
-              hobby project to create a web-based version of a boardgame called
-              <a
-                href="https://en.gigamic.com/games-for-family/401-imagidice-3421271401728.html"
-                target="_blank"
-                ><span>Imagidice</span></a
-              >. Essentially it's a storytelling game, with players rolling the
-              six-sided dice, then using the images on them to create a story
-              one die at a time. I have been working on front-end, meanwhile he
-              was coding the back-end of the website. While this project is
-              still a work in progress, it's something I take great pride in.
-            </p>
-            <button class="article-bttn">Open</button>
-          </div>
-          <div>
-            <a href="#">
-              <img
-                class="article-img"
-                src="images/examples/imagidice.png"
-                alt="my profile picture"
-              />
-            </a>
-          </div>
-        </article>
-        <article class="swap">
-          <div>
-            <h2>Scholomance</h2>
-            <p>
-              One of my other projects involved the creation of a website for a
-              school or academy. In a whimsical twist, I decided to craft a
-              website for a school called Scholomance, a fictitious institution
-              of necromancy, a dungeon instance of the popular video game, World
-              of Warcraft.
-            </p>
-            <button class="article-bttn">Open</button>
-          </div>
-          <div>
-            <a href="#">
-              <img
-                class="article-img"
-                src="images/examples/scholomance.png"
-                alt="my profile picture"
-              />
-            </a>
-          </div>
-        </article>
-        <article class="swap">
-          <div>
-            <h2>Tasty Byte</h2>
-            <p>
-              As I left my homecountry and moved to Sweden I have tried many new
-              delicious dishes and shared some of my own too, but photographing
-              recipes or sending links to my family and friends wasn't an option
-              because of the language barrier. Therefore to bridge the language
-              gap and share recipes effectively, I decided to create a website
-              featuring recipes in Serbian, English, and Swedish.
-            </p>
-            <button class="article-bttn">Open</button>
-          </div>
-          <div>
-            <a href="#">
-              <img
-                class="article-img"
-                src="images/examples/tb.png"
-                alt="my profile picture"
-              />
-            </a>
-          </div>
-        </article>
-        <article class="swap">
-          <div>
-            <h2>Whorl</h2>
-            <p>
-              My most recent project involved the creation of an e-commerce
-              website. For a long time I wished to start such project but I
-              hesitated due to my limited experience in JavaScript. I posponed
-              until my curiosity overcame my apprehension.<br /><br />
-              Interestingly, my inspiration for starting this project came from
-              the last item I considered buying. When I discovered
-              <a href="https://www.loopearplugs.com/" target="_blank"
-                ><span>Loop Earplugs</span></a
-              >, it made me realize the importance of even small and seemingly
-              insignificant items in people's lives. This reinforced my belief
-              that quality products, regardless of their size, can be presented
-              in a captivating and meaningful way.
-            </p>
-            <button class="article-bttn">Open</button>
-          </div>
-          <div>
-            <a href="#">
-              <img
-                class="article-img"
-                src="images/examples/whorl.png"
-                alt="my profile picture"
-              />
-            </a>
-          </div>
-        </article>
-      </section>
+        <div class="portfolio-containers">
+            <a href="risengrind.html">
+                <div class="portfolio-container">
+                <img class="portfolio-image" src="img/examples/rng1.jpg">
+                <img class="portfolio-logo" src="img/examples/rng2.png" alt="rise and grind cafe">
+                </div>
+              </a>
+              <a href="#">
+                <div class="portfolio-container">
+                <img class="portfolio-image" src="img/examples/scholomance1.jpg">
+                <img class="portfolio-logo" src="img/examples/scholomance2.png" alt="scholomance academy">
+                </div>
+              </a>
+              <a href="#">
+                <div class="portfolio-container">
+                <img class="portfolio-image" src="img/examples/petit1.jpg">
+                <img class="portfolio-logo" src="img/examples/petit2.png" alt="clay petit design">
+                </div>
+              </a>
+              <a href="#">
+                <div class="portfolio-container">
+                <img class="portfolio-image" src="img/examples/imagi1.jpg">
+                <img class="portfolio-logo" src="img/examples/imagi2.png" alt="imagidice">
+                </div>
+              </a>
+              <a href="#">
+                <div class="portfolio-container">
+                <img class="portfolio-image" src="img/examples/shark1.jpg">
+                <img class="portfolio-logo" src="img/examples/shark2.png" alt="shark">
+                </div>
+              </a>
+              <a href="#">
+                <div class="portfolio-container">
+                <img class="portfolio-image" src="img/examples/whorl1.jpg">
+                <img class="portfolio-logo" src="img/examples/whorl2.png" alt="whorl">
+                </div>
+              </a>
+              
+                       
 
-        <!-- Scroll to Top -->
 
-  <button onclick="topFunction()" id="BackTopBttn" title="Go to top"">
-    <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </div>
+    </main>
+
+   <!-- Scroll to Top -->
+   <button onclick="topFunction()" id="BackTopBttn" title="Go to top"">
+    <span class="material-symbols-outlined" style="transform: rotate(270deg); z-index: 99;"> arrow_forward_ios </span>
   </button>
-  <!-- Scroll top top JS Code copied from https://www.w3schools.com/ -->
   <script>
-    // Get the button
+          // Get the button
     let mybutton = document.getElementById("BackTopBttn");
-    
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
+
+    // When the user scrolls down show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
     function scrollFunction() {
-      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      if (
+        document.body.scrollTop > 300 ||
+        document.documentElement.scrollTop > 300
+      ) {
         mybutton.style.display = "block";
       } else {
         mybutton.style.display = "none";
       }
     }
-    
+
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
-    </script>
+  </script>
 
-
-    </main>
+<section class="contact-form">
+  <div class="contact-form-container" id="contact">
+    <h4>Let's Talk</h4>
+    <input type="text" placeholder="Email *" />
+    <input type="text" placeholder="Full Name *" />
+    <textarea
+      name="Message"
+      id="contact-message"
+      cols="30"
+      rows="10"
+      placeholder="Enter your message..."
+    ></textarea>
+  </div>
+</section>
     <footer>
-      <a href="contact.html"
-        ><img
-          class="footer-icon"
-          src="images/icons/mail.png"
-          alt="e-mail"
-          title="E-mail"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          class="footer-icon"
-          src="images/icons/insta.png"
-          alt="instagram"
-          title="Instagram"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          class="footer-icon"
-          src="images/icons/gh.png"
-          alt="git hub"
-          title="Git Hub"
-      /></a>
+      <div class="social-info-container">
+        <div class="social-ico-container">
+          <a href="mailto: terezadjokic@yahoo.com"
+            ><img
+              class="social-ico"
+              src="img/icons/mail.png"
+              alt="e-mail link"
+              title="Email"
+          /></a>
+          <a href="https://www.instagram.com/terinax3/"
+            ><img
+              class="social-ico"
+              src="img/icons/insta.png"
+              alt="Instagram link"
+              title="Instagram"
+          /></a>
+          <a href="https://github.com/Terinax3"
+            ><img
+              class="social-ico"
+              src="img/icons/gh.png"
+              alt="Git Hub link"
+              title="Git Hub"
+          /></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
