@@ -11,6 +11,7 @@ html {
   --dark: #333333; /* Dark Black */
   --darker: #222222; /* Darker Black */
   --bright: #eeeeee; /* Bright White */
+  --color: #000000;
 }
 .main-background-bright {
   background-color: white;
