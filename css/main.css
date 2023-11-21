@@ -152,7 +152,7 @@ h6 {
   }
 }
 
-/* Main Menu */
+/* Index Menu Containers */
 
 .containers {
   display: flex;
@@ -200,7 +200,7 @@ h6 {
   transform: translate(-50%, -50%);
 }
 
-/* Contact */
+/* Contact Form */
 
 .contact-form {
   display: flex;
@@ -274,7 +274,7 @@ footer {
   width: 35px;
 }
 
-/* Scroll to Top */
+/* Scroll to Top Button */
 
 #BackTopBttn {
   display: none;
@@ -290,63 +290,8 @@ footer {
 }
 #BackTopBttn:hover {
   background-color: rgb(107, 107, 107);
-} /* Scroll top top JS Code copied from https://www.w3schools.com/ */
-
-/* Responsive size for Phone */
-
-@media only screen and (max-width: 1000px) {
-  .containers {
-    flex-wrap: wrap;
-  }
-  .container {
-    background-color: black;
-    width: 100%;
-    height: 500px;
-    position: relative;
-    object-fit: cover;
-  }
-  .image {
-    object-fit: cover;
-    width: 100%;
-    height: 500px;
-  }
-  .contact-form-container {
-    width: 90%;
-  }
-  input,
-  textarea {
-    width: 90%;
-  }
-  .social-ico-container {
-    gap: 15vw;
-    padding: 50px 0 50px 0;
-  }
-  .social-ico {
-    width: 10vw;
-  }
-  .intro-text {
-    width: 90%;
-    padding: 0;
-  }
-  .intro-container {
-    padding: 0;
-    margin: 0;
-    height: 80vw;
-  }
-  .intro-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .index-background {
-    background-image: url("../img/photos/background_index2.jpg");
-  }
-  #BackTopBttn {
-    bottom: 10%;
-    right: 0;
-    padding: 20px 20px 13px 20px;
-  }
 }
+/* Scroll top top JS Code copied from https://www.w3schools.com/ */
 
 /* Portfolio Containers */
 
@@ -388,6 +333,7 @@ footer {
 }
 
 /* Portfolio Post */
+
 .portfolio-item-containers {
   display: flex;
   flex-wrap: nowrap;
@@ -501,4 +447,76 @@ hr {
   font-size: 1.2vw;
   line-height: 1.8vw;
   text-align: center;
+}
+
+/* Responsive size for Phone */
+
+@media only screen and (max-width: 1000px) {
+  .index-background {
+    background-image: url("../img/photos/background_index2.jpg");
+  }
+  /* Index Intro Containers */
+  .intro-text {
+    width: 90%;
+    padding: 0;
+  }
+  .intro-container {
+    padding: 0;
+    margin: 0;
+    height: 80vw;
+  }
+  .intro-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Index Menu Containers */
+  .containers {
+    flex-wrap: wrap;
+  }
+  .container {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: cover;
+  }
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+  /* Contact Form & Footer */
+  .contact-form-container {
+    width: 90%;
+  }
+  input,
+  textarea {
+    width: 90%;
+  }
+  .social-ico-container {
+    gap: 15vw;
+    padding: 50px 0 50px 0;
+  }
+  .social-ico {
+    width: 10vw;
+  }
+  #BackTopBttn {
+    bottom: 10%;
+    right: 0;
+    padding: 20px 20px 13px 20px;
+  }
+  /* Portfolio Containers */
+  .portfolio-containers {
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .portfolio-container {
+    margin: 0;
+  }
+  .portfolio-image {
+    width: 100%;
+    height: auto;
+  }
 }
