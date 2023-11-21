@@ -26,6 +26,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: var(--bright);
+  z-index: 999;
 }
 ol {
   display: flex;
