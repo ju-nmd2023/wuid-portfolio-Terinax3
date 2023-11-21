@@ -487,13 +487,6 @@ hr {
   font-style: normal;
   text-align: center;
 }
-hr {
-  border: none;
-  border-top: 0.1px solid #ffffff;
-  overflow: visible;
-  text-align: center;
-  width: 40%;
-}
 .portfolio-about-text {
   width: 50%;
 }
