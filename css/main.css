@@ -38,6 +38,9 @@ li {
   text-decoration: underline transparent;
   text-underline-offset: 5pt;
 }
+a {
+  color: var(--dark);
+}
 
 li:hover,
 li a:focus {
