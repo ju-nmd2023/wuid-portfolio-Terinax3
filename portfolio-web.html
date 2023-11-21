@@ -25,32 +25,34 @@
   <body>
 
      <!-- Header & Navigation Bar -->
-    <header>
+
+     <header>
       <nav>
         <ol>
-          <a href="index.html"><li>Home</li></a>
-          <a href="portfolio.html"><li>Portfolio</li></a>
-          <a href="#contact"><li>Contact</li></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="portfolio.html">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ol>
       </nav>
     </header>
 
     <!-- Main Content of the Page -->
+    
     <main>
 
       <!-- Imagidice -->
       <section>
-        <div class="s-one-containers">
-          <div class="s-one-container">
+        <div class="intro-containers">
+          <div class="intro-container">
             <img
-              class="s-one-img"
+              class="intro-img"
               src="img/examples/imagi3.jpg"
               alt="profile picture"
             />
-            <div class="s-one-arrow">
+            <div class="intro-arrow">
               <a href="#scholomance"
                 ><img
-                  class="s-one-img-arrow"
+                  class="intro-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a>
@@ -61,17 +63,17 @@
 
       <!-- Scholomance -->
       <section>
-        <div class="s-one-containers">
-          <div class="s-one-container" id="scholomance">
+        <div class="intro-containers">
+          <div class="intro-container" id="scholomance">
             <img
-              class="s-one-img"
+              class="intro-img"
               src="img/examples/scholomance3.jpg"
               alt="profile picture"
             />
-            <div class="s-one-arrow">
+            <div class="intro-arrow">
               <a href="#whorl"
                 ><img
-                  class="s-one-img-arrow"
+                  class="intro-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a>
@@ -82,17 +84,17 @@
 
       <!-- Whorl -->
       <section>
-        <div class="s-one-containers">
-          <div class="s-one-container" id="whorl">
+        <div class="intro-containers">
+          <div class="intro-container" id="whorl">
             <img
-              class="s-one-img"
+              class="intro-img"
               src="img/examples/whorl3.jpg"
               alt="profile picture"
             />
-            <div class="s-one-arrow">
+            <div class="intro-arrow">
               <a href="#tastybyte"
                 ><img
-                  class="s-one-img-arrow"
+                  class="intro-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a>
@@ -103,17 +105,17 @@
 
       <!-- Tasty -->
       <section>
-        <div class="s-one-containers">
-          <div class="s-one-container" id="tastybyte">
+        <div class="intro-containers">
+          <div class="intro-container" id="tastybyte">
             <img
-              class="s-one-img"
+              class="intro-img"
               src="img/examples/tasty.jpg"
               alt="profile picture"
             />
-            <!-- <div class="s-one-arrow">
+            <!-- <div class="intro-arrow">
               <a href="#further"
                 ><img
-                  class="s-one-img-arrow"
+                  class="intro-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a> -->
@@ -123,51 +125,60 @@
       </section>
     </main>
 
+
    <!-- Scroll to Top -->
+
    <button onclick="topFunction()" id="BackTopBttn" title="Go to top"">
     <span class="material-symbols-outlined" style="transform: rotate(270deg); z-index: 99;"> arrow_forward_ios </span>
   </button>
 
-<section class="contact-form">
-  <div class="contact-form-container" id="contact">
-    <h4>Let's Talk</h4>
-    <input type="text" placeholder="Email *" />
-    <input type="text" placeholder="Full Name *" />
-    <textarea
-      name="Message"
-      id="contact-message"
-      cols="30"
-      rows="10"
-      placeholder="Enter your message..."
-    ></textarea>
-  </div>
-</section>
-<footer>
-  <div class="social-info-container">
-    <div class="social-ico-container">
-      <a href="mailto: terezadjokic@yahoo.com"
-        ><img
-          class="social-ico"
-          src="img/icons/mail2.png"
-          alt="e-mail link"
-          title="Email"
-      /></a>
-      <a href="https://www.instagram.com/terinax3/"  target="_blank"
-        ><img
-          class="social-ico"
-          src="img/icons/insta.png"
-          alt="Instagram link"
-          title="Instagram"
-      /></a>
-      <a href="https://github.com/Terinax3"  target="_blank"
-        ><img
-          class="social-ico"
-          src="img/icons/gh.png"
-          alt="Git Hub link"
-          title="Git Hub"
-      /></a>
+
+  <!-- Contact Form -->
+
+  <section class="contact-form">
+    <div class="contact-form-container" id="contact">
+      <h4>Let's Talk</h4>
+      <input type="text" placeholder="Email *" />
+      <input type="text" placeholder="Full Name *" />
+      <textarea
+        name="Message"
+        id="contact-message"
+        cols="30"
+        rows="10"
+        placeholder="Enter your message..."
+      ></textarea>
     </div>
-  </div>
-</footer>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="social-info-container">
+      <div class="social-ico-container">
+        <a href="mailto: terezadjokic@yahoo.com"
+          ><img
+            class="social-ico"
+            src="img/icons/mail2.png"
+            alt="e-mail link"
+            title="Email"
+        /></a>
+        <a href="https://www.instagram.com/terinax3/"  target="_blank"
+          ><img
+            class="social-ico"
+            src="img/icons/insta.png"
+            alt="Instagram link"
+            title="Instagram"
+        /></a>
+        <a href="https://github.com/Terinax3"  target="_blank"
+          ><img
+            class="social-ico"
+            src="img/icons/gh.png"
+            alt="Git Hub link"
+            title="Git Hub"
+        /></a>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>

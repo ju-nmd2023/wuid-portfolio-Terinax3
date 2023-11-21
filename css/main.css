@@ -11,11 +11,8 @@ html {
   --dark: #333333; /* Dark Black */
   --darker: #222222; /* Darker Black */
   --bright: #eeeeee; /* Bright White */
-  --color: #000000;
 }
-.main-background-bright {
-  background-color: white;
-}
+
 .index-background {
   background-image: url("../img/photos/background_index.jpg");
   background-repeat: no-repeat;
@@ -42,11 +39,13 @@ li {
   text-underline-offset: 5pt;
 }
 
-a li:hover {
+li:hover,
+li a:focus {
+  color: var(--dark);
   text-decoration: underline var(--dark);
 }
 /* Not sure why it's not working*/
-a li:active {
+li a.active {
   text-decoration: underline var(--dark);
 }
 
@@ -84,27 +83,27 @@ h6 {
   margin-bottom: 2vw;
 }
 
-/* Greeting Container */
+/* Intro Container */
 
-.s-one-containers {
+.intro-containers {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
   width: 100%;
 }
-.s-one-container {
+.intro-container {
   width: 100%;
   height: 45vw;
   position: relative;
   object-fit: cover;
 }
-.s-one-img {
+.intro-img {
   width: 100%;
   height: 45vw;
   object-fit: cover;
 }
-.s-one-text {
+.intro-text {
   text-align: center;
   position: absolute;
   top: 45%;
@@ -113,7 +112,7 @@ h6 {
   border: 2px solid var(--bright);
   padding: 3vw 6vw;
 }
-.s-one-arrow {
+.intro-arrow {
   text-align: center;
   position: absolute;
   top: 92%;
@@ -121,12 +120,12 @@ h6 {
   transform: translate(-50%, -50%);
   padding: 2vw 3vw;
 }
-.s-one-img-arrow {
+.intro-img-arrow {
   width: 30px;
   animation: shake ease 2.5s infinite;
   animation-delay: 0.5s;
 }
-.s-one-arrow-two {
+.intro-arrow-two {
   text-align: center;
   position: absolute;
   top: 90%;
@@ -325,16 +324,16 @@ footer {
   .social-ico {
     width: 10vw;
   }
-  .s-one-text {
+  .intro-text {
     width: 90%;
     padding: 0;
   }
-  .s-one-container {
+  .intro-container {
     padding: 0;
     margin: 0;
     height: 80vw;
   }
-  .s-one-img {
+  .intro-img {
     width: 100%;
     height: 100%;
     object-fit: cover;

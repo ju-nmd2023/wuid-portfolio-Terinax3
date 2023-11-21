@@ -23,13 +23,15 @@
     <title>Tereza's Portfolio - Portfolio</title>
   </head>
   <body>
+
     <!-- Header & Navigation Bar -->
+
     <header>
       <nav>
         <ol>
-          <a href="index.html"><li>Home</li></a>
-          <a href="portfolio.html"><li>Portfolio</li></a>
-          <a href="#contact"><li>Contact</li></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="portfolio.html">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ol>
       </nav>
     </header>
@@ -77,50 +79,58 @@
     </main>
 
    <!-- Scroll to Top -->
+
    <button onclick="topFunction()" id="BackTopBttn" title="Go to top"">
     <span class="material-symbols-outlined" style="transform: rotate(270deg); z-index: 99;"> arrow_forward_ios </span>
   </button>
 
-<section class="contact-form">
-  <div class="contact-form-container" id="contact">
-    <h4>Let's Talk</h4>
-    <input type="text" placeholder="Email *" />
-    <input type="text" placeholder="Full Name *" />
-    <textarea
-      name="Message"
-      id="contact-message"
-      cols="30"
-      rows="10"
-      placeholder="Enter your message..."
-    ></textarea>
-  </div>
-</section>
-<footer>
-  <div class="social-info-container">
-    <div class="social-ico-container">
-      <a href="mailto: terezadjokic@yahoo.com"
-        ><img
-          class="social-ico"
-          src="img/icons/mail2.png"
-          alt="e-mail link"
-          title="Email"
-      /></a>
-      <a href="https://www.instagram.com/terinax3/"  target="_blank"
-        ><img
-          class="social-ico"
-          src="img/icons/insta.png"
-          alt="Instagram link"
-          title="Instagram"
-      /></a>
-      <a href="https://github.com/Terinax3"  target="_blank"
-        ><img
-          class="social-ico"
-          src="img/icons/gh.png"
-          alt="Git Hub link"
-          title="Git Hub"
-      /></a>
+
+  <!-- Contact Form -->
+
+  <section class="contact-form">
+    <div class="contact-form-container" id="contact">
+      <h4>Let's Talk</h4>
+      <input type="text" placeholder="Email *" />
+      <input type="text" placeholder="Full Name *" />
+      <textarea
+        name="Message"
+        id="contact-message"
+        cols="30"
+        rows="10"
+        placeholder="Enter your message..."
+      ></textarea>
     </div>
-  </div>
-</footer>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="social-info-container">
+      <div class="social-ico-container">
+        <a href="mailto: terezadjokic@yahoo.com"
+          ><img
+            class="social-ico"
+            src="img/icons/mail2.png"
+            alt="e-mail link"
+            title="Email"
+        /></a>
+        <a href="https://www.instagram.com/terinax3/"  target="_blank"
+          ><img
+            class="social-ico"
+            src="img/icons/insta.png"
+            alt="Instagram link"
+            title="Instagram"
+        /></a>
+        <a href="https://github.com/Terinax3"  target="_blank"
+          ><img
+            class="social-ico"
+            src="img/icons/gh.png"
+            alt="Git Hub link"
+            title="Git Hub"
+        /></a>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>

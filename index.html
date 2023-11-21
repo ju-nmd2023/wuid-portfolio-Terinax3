@@ -23,29 +23,29 @@
     <title>Tereza's Blog</title>
   </head>
   <body>
+
     <!-- Header & Navigation Bar -->
+
     <header>
       <nav>
         <ol>
-          <a href=""><li>Home</li></a>
-          <a href="portfolio.html"><li>Portfolio</li></a>
-          <a href="#contact"><li>Contact</li></a>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ol>
       </nav>
     </header>
 
     <!-- Main Content of the Page -->
+
     <main class="index-background">
-      <!-- Greeting Section -->
+
+      <!-- intro -->
+
       <section>
-        <div class="s-one-containers">
-          <div class="s-one-container">
-            <!-- <img
-              class="s-one-img"
-              src="img/photos/img_one.JPG"
-              alt="profile picture"
-            /> -->
-            <div class="s-one-text">
+        <div class="intro-containers">
+          <div class="intro-container">
+            <div class="intro-text">
               <h1>Hi, I'm Tereza</h1>
               <h2>
                 I love traveling, nature and capturing memories.<br />
@@ -53,10 +53,10 @@
                 I am currently studying New Media Design in Sweden.
               </h2>
             </div>
-            <div class="s-one-arrow">
+            <div class="intro-arrow">
               <a href="#further"
                 ><img
-                  class="s-one-img-arrow"
+                  class="intro-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a>
@@ -67,6 +67,7 @@
       </section>
 
       <!-- Main Menu -->
+
       <section id="portfolio">
         <div class="containers" id="further">
           <div class="container">
@@ -98,25 +99,33 @@
         </div>
       </section>
     </main>
+
     <!-- Scroll to Top -->
+
     <button onclick="topFunction()" id="BackTopBttn" title="Go to top"">
       <span class="material-symbols-outlined" style="transform: rotate(270deg); z-index: 99;"> arrow_forward_ios </span>
     </button>
   
-<section class="contact-form">
-  <div class="contact-form-container" id="contact">
-    <h4>Let's Talk</h4>
-    <input type="text" placeholder="Email *" />
-    <input type="text" placeholder="Full Name *" />
-    <textarea
-      name="Message"
-      id="contact-message"
-      cols="30"
-      rows="10"
-      placeholder="Enter your message..."
-    ></textarea>
-  </div>
-</section>
+    
+    <!-- Contact Form -->
+
+    <section class="contact-form">
+      <div class="contact-form-container" id="contact">
+        <h4>Let's Talk</h4>
+        <input type="text" placeholder="Email *" />
+        <input type="text" placeholder="Full Name *" />
+        <textarea
+          name="Message"
+          id="contact-message"
+          cols="30"
+          rows="10"
+          placeholder="Enter your message..."
+        ></textarea>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+
     <footer>
       <div class="social-info-container">
         <div class="social-ico-container">
