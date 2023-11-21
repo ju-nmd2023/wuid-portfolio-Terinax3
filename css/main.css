@@ -373,6 +373,9 @@ footer {
 .xxl-img {
   width: 10%;
 }
+
+/* Rise & Grind */
+
 .xxl-divider {
   display: flex;
   align-items: center;
@@ -422,18 +425,6 @@ hr {
   font-size: 1.5vw;
   font-family: "pain-de-mie", sans-serif;
 }
-.cs-raw {
-  color: #005757;
-}
-.cs-mocha {
-  color: #8a5956;
-}
-.cs-latte {
-  color: #d99e80;
-}
-.cs-irish {
-  color: #f6c65d;
-}
 .font-paindm {
   font-family: "pain-de-mie", sans-serif;
   font-size: 2vw;
@@ -451,6 +442,60 @@ hr {
   font-size: 1.2vw;
   line-height: 1.8vw;
   text-align: center;
+}
+
+/* Imagidice */
+.imagidice-title {
+  margin-top: 3vw;
+  font-size: 1.5vw;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+.imagidice-number {
+  font-size: 1.5vw;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+.galaxy {
+  background-color: #373756;
+}
+.stellar {
+  background-color: #1e1e2d;
+}
+.nebula {
+  background-color: #00ffff;
+}
+.corona {
+  background-color: #ffd500;
+}
+.i-galaxy {
+  color: #373756;
+}
+.i-stellar {
+  color: #1e1e2d;
+}
+.i-nebula {
+  color: #00ffff;
+}
+.i-corona {
+  color: #ffd500;
+}
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+  font-size: 2vw;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+}
+hr {
+  border: none;
+  border-top: 0.1px solid #ffffff;
+  overflow: visible;
+  text-align: center;
+  width: 40%;
+}
+.portfolio-about-text {
+  width: 50%;
 }
 
 /* Responsive size for Phone */
@@ -522,5 +567,9 @@ hr {
   .portfolio-image {
     width: 100%;
     height: auto;
+  }
+  .portfolio-about-text {
+    width: 90%;
+    font-size: 2rem;
   }
 }
