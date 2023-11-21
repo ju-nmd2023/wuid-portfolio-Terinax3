@@ -17,7 +17,7 @@ html {
   background-color: white;
 }
 .index-background {
-  background-image: url("../img/photos/background.JPG");
+  background-image: url("../img/photos/background_index.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -340,7 +340,7 @@ footer {
     object-fit: cover;
   }
   .index-background {
-    background-image: url("../img/photos/img_one_one_one_one.jpg");
+    background-image: url("../img/photos/background_index2.jpg");
   }
   #BackTopBttn {
     bottom: 10%;
