@@ -17,7 +17,7 @@ html {
   background-color: white;
 }
 .index-background {
-  background-image: url("../img/photos/img_background.JPG");
+  background-image: url("../img/photos/background.JPG");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -299,6 +299,18 @@ footer {
   .containers {
     flex-wrap: wrap;
   }
+  .container {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: cover;
+  }
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
   .contact-form-container {
     width: 90%;
   }
@@ -314,7 +326,8 @@ footer {
     width: 10vw;
   }
   .s-one-text {
-    padding: 1vw 4vw;
+    width: 90%;
+    padding: 0;
   }
   .s-one-container {
     padding: 0;
@@ -332,7 +345,7 @@ footer {
   #BackTopBttn {
     bottom: 10%;
     right: 0;
-    padding: 30px 30px 23px 30px;
+    padding: 20px 20px 13px 20px;
   }
 }
 
