@@ -681,7 +681,9 @@ footer {
   height: 38vw;
   object-fit: cover;
 }
-
+.o {
+  color: black;
+}
 .info-container {
   display: flex;
   flex-wrap: nowrap;
