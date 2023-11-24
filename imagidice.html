@@ -74,20 +74,20 @@
     <!-- Info -->
 
     <section>
-      <div class="xxl-container">
-          <img style="width: 30%;" src="img/files/imagidice/imagi-logo1.png" alt="Imagidice logo">
+      <div class="info-container">
+          <img style="height: 60px;" src="img/files/imagidice/imagi-logo1.png" alt="Imagidice logo">
       </div>
 
-    <span class="xxl-divider"><hr>Logotype<hr></span>
+    <span class="info-divider"><hr>Logotype<hr></span>
 
-      <div class="xxl-container">
-          <img style="width: 10%;" src="img/files/imagidice/imagi-logo2.png" alt="Imagidice logo">
-          <img style="height: 10%;" src="img/files/imagidice/imagi-logo3.png" alt="Imagidice logo">
+      <div class="info-container">
+          <img style="height: 50px;" src="img/files/imagidice/imagi-logo2.png" alt="Imagidice logo">
+          <img style="height: 60px;" src="img/files/imagidice/imagi-logo3.png" alt="Imagidice logo">
       </div>
 
-    <span class="xxl-divider"><hr>Variants<hr></span>
+    <span class="info-divider"><hr>Variants<hr></span>
 
-      <div class="xxl-container">
+      <div class="info-container">
         <div class="color-shade-container">
             <span class="color-shade galaxy"></span>
             <span class="imagidice-title i-galaxy">Galaxy</span>
@@ -110,20 +110,19 @@
           </div>
       </div>
 
-    <span class="xxl-divider"><hr>Palette<hr></span>
+    <span class="info-divider"><hr>Palette<hr></span>
 
-      <div class="xxl-container">
-          <img class="xxl-img" src="img/files/imagidice/yolk.png" alt="rise and grind cafe logo">
-          <img class="xxl-img" src="img/files/imagidice/sapien.png" alt="rise and grind cafe logo">
-          <img class="xxl-img" src="img/files/imagidice/hypno.png" alt="rise and grind cafe logo">
-          <img class="xxl-img" src="img/files/imagidice/bean.png" alt="rise and grind cafe logo">
-          <img class="xxl-img" src="img/files/imagidice/six.png" alt="rise and grind cafe logo">
-
+      <div class="info-container">
+          <img class="info-img" src="img/files/imagidice/yolk.png" alt="">
+          <img class="info-img" src="img/files/imagidice/sapien.png" alt="">
+          <img class="info-img" src="img/files/imagidice/hypno.png" alt="">
+          <img class="info-img" src="img/files/imagidice/bean.png" alt="">
+          <img class="info-img" src="img/files/imagidice/six.png" alt="">
       </div>
 
-    <span class="xxl-divider"><hr>Icons<hr></span>
+    <span class="info-divider"><hr>Icons<hr></span>
 
-      <div class="xxl-container">
+      <div class="info-container">
         <div class="font-nunito">Nunito<br><br>
         A B C D E F G E H J K L M N O P<br>
         P Q R S T U V W X Y Z<br><br>
@@ -133,9 +132,9 @@
         </div>
       </div>
 
-    <span class="xxl-divider"><hr>Typeface<hr></span>
+    <span class="info-divider"><hr>Typeface<hr></span>
 
-      <div class="xxl-container row" id="about">
+      <div class="info-container row" id="about">
         <img style="width: 30vw; padding-bottom: 3vw;" src="img/files/imagidice/imagi-logo1.png" alt="rise and grind cafe logo">
           <div class="portfolio-about-text">
             <b>About:</b> Embarking on an exciting hobby project, my brother and I have set out to
@@ -162,12 +161,12 @@
     </button>
 
 
-    <!-- Contact Form -->
+     <!-- Contact Form -->
 
-    <section class="contact-form">
+     <section class="contact-form">
       <div class="contact-form-container" id="contact">
         <h4>Let's Talk</h4>
-        <input type="text" placeholder="Email *" />
+        <input type="email" id="email" pattern=".+@example\.com" minlength="5" maxlength="50" placeholder="Email *" />
         <input type="text" placeholder="Full Name *" />
         <textarea
           name="Message"
@@ -176,6 +175,7 @@
           rows="10"
           placeholder="Enter your message..."
         ></textarea>
+        <button class="send-bttn">Send</button>
       </div>
     </section>
 

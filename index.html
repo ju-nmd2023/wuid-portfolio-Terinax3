@@ -38,7 +38,7 @@
 
     <!-- Main Content of the Page -->
 
-    <main class="index-background">
+    <main class="index-background background-color">
 
       <!-- intro -->
 
@@ -110,9 +110,9 @@
     <!-- Contact Form -->
 
     <section class="contact-form">
-      <div class="contact-form-container" id="contact">
+      <div class="contact-form-container">
         <h4>Let's Talk</h4>
-        <input type="text" placeholder="Email *" />
+        <input type="email" id="email" pattern=".+@example\.com" minlength="5" maxlength="50" placeholder="Email *" />
         <input type="text" placeholder="Full Name *" />
         <textarea
           name="Message"
@@ -121,6 +121,7 @@
           rows="10"
           placeholder="Enter your message..."
         ></textarea>
+        <button class="send-bttn">Send</button>
       </div>
     </section>
     

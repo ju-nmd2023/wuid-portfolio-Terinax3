@@ -40,40 +40,21 @@
   
     <main>
   
-        <!-- Petit Clay Design -->
-        <section>
-          <div class="intro-containers">
-            <div class="intro-container">
-              <img
-                class="intro-img"
-                src="img/examples/petitclay.jpg"
-                alt="Petit Clay Designs"
-              />
-              <div class="intro-arrow">
-                <a href="#risengrind"
-                  ><img
-                    class="intro-img-arrow"
-                    src="img/icons/arrow.png"
-                    alt="arrow down"
-                /></a>
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
          <!-- Rise & Grind -->
       <a href="risengrind.html"><section>
-        <div class="intro-containers">
-          <div class="intro-container" id="risengrind">
+        <div class="portfolio-web-containers">
+          <div class="portfolio-web-container" id="risengrind">
             <img
-              class="intro-img"
+              class="portfolio-web-img"
               src="img/examples/rng3.jpg"
               alt="Rise & Grind Cafe"
             />
-            <div class="intro-arrow">
+            <div class="portfolio-web-arrow">
               <a href="#shark"
                 ><img
-                  class="intro-img-arrow"
+                  class="portfolio-web-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a>
@@ -84,17 +65,17 @@
 
       <!-- Shark -->
       <section>
-        <div class="intro-containers">
-          <div class="intro-container" id="shark">
+        <div class="portfolio-web-containers">
+          <div class="portfolio-web-container" id="shark">
             <img
-              class="intro-img"
+              class="portfolio-web-img"
               src="img/examples/shark3.jpg"
               alt="Shark - Surf safe and free"
             />
-            <div class="intro-arrow">
+            <div class="portfolio-web-arrow">
               <a href="#ekkorbarnens"
                 ><img
-                  class="intro-img-arrow"
+                  class="portfolio-web-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a>
@@ -105,21 +86,42 @@
 
       <!-- Ekkorbarnen Forskola -->
       <section>
-        <div class="intro-containers">
-          <div class="intro-container" id="ekkorbarnens">
+        <div class="portfolio-web-containers">
+          <div class="portfolio-web-container" id="ekkorbarnens">
             <img
-              class="intro-img"
+              class="portfolio-web-img"
               src="img/examples/ekkor.jpg"
               alt="Ekkorbarnens forksola"
             />
-            <!-- <div class="intro-arrow">
+            <!-- <div class="portfolio-web-arrow">
               <a href="#"
                 ><img
-                  class="intro-img-arrow"
+                  class="portfolio-web-img-arrow"
                   src="img/icons/arrow.png"
                   alt="arrow down"
               /></a>
             </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Petit Clay Design -->
+      <section>
+        <div class="portfolio-web-containers">
+          <div class="portfolio-web-container">
+            <img
+              class="portfolio-web-img"
+              src="img/examples/petitclay.jpg"
+              alt="Petit Clay Designs"
+            />
+            <div class="portfolio-web-arrow">
+              <a href="#risengrind"
+                ><img
+                  class="portfolio-web-img-arrow"
+                  src="img/icons/arrow.png"
+                  alt="arrow down"
+              /></a>
+            </div>
           </div>
         </div>
       </section>
@@ -132,23 +134,23 @@
     </button>
 
 
-  <!-- Contact Form -->
+ <!-- Contact Form -->
 
-  <section class="contact-form">
-    <div class="contact-form-container" id="contact">
-      <h4>Let's Talk</h4>
-      <input type="text" placeholder="Email *" />
-      <input type="text" placeholder="Full Name *" />
-      <textarea
-        name="Message"
-        id="contact-message"
-        cols="30"
-        rows="10"
-        placeholder="Enter your message..."
-      ></textarea>
-    </div>
-  </section>
-
+ <section class="contact-form">
+  <div class="contact-form-container" id="contact">
+    <h4>Let's Talk</h4>
+    <input type="email" id="email" pattern=".+@example\.com" minlength="5" maxlength="50" placeholder="Email *" />
+    <input type="text" placeholder="Full Name *" />
+    <textarea
+      name="Message"
+      id="contact-message"
+      cols="30"
+      rows="10"
+      placeholder="Enter your message..."
+    ></textarea>
+    <button class="send-bttn">Send</button>
+  </div>
+</section>
   <!-- Footer -->
 
   <footer>

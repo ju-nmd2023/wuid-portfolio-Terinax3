@@ -85,23 +85,23 @@
   </button>
 
 
-  <!-- Contact Form -->
+ <!-- Contact Form -->
 
-  <section class="contact-form">
-    <div class="contact-form-container" id="contact">
-      <h4>Let's Talk</h4>
-      <input type="text" placeholder="Email *" />
-      <input type="text" placeholder="Full Name *" />
-      <textarea
-        name="Message"
-        id="contact-message"
-        cols="30"
-        rows="10"
-        placeholder="Enter your message..."
-      ></textarea>
-    </div>
-  </section>
-
+ <section class="contact-form">
+  <div class="contact-form-container" id="contact">
+    <h4>Let's Talk</h4>
+    <input type="email" id="email" pattern=".+@example\.com" minlength="5" maxlength="50" placeholder="Email *" />
+    <input type="text" placeholder="Full Name *" />
+    <textarea
+      name="Message"
+      id="contact-message"
+      cols="30"
+      rows="10"
+      placeholder="Enter your message..."
+    ></textarea>
+    <button class="send-bttn">Send</button>
+  </div>
+</section>
 
   <!-- Footer -->
 
