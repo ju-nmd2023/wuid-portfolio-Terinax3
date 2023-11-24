@@ -857,7 +857,11 @@ hr {
     font-size: 1.2rem;
   }
   .p-s-6-container {
-    margin: 0 10%;
+    margin: 0 15%;
+  }
+  .p-s-6-text {
+    padding-bottom: 10%;
+    font-size: 0.7rem;
   }
   hr {
     width: 40%;
@@ -888,7 +892,6 @@ hr {
     height: 80px;
     width: 80px;
   }
-
   .c-title {
     font-size: 1.2rem;
   }
@@ -900,6 +903,11 @@ hr {
   }
   .p-s-6-container {
     margin: 0 10%;
+  }
+  .p-s-6-text {
+    padding: 5% 1% 20% 1%;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
   }
   .p-s-divider {
     font-size: 0.7rem;
