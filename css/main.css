@@ -20,7 +20,7 @@ html {
   background-attachment: fixed;
   background-size: 100%;
 }
-.index-background {
+.background-color {
   background-color: var(--darker);
 }
 /* Top Navigation Bar */
