@@ -661,6 +661,8 @@ footer {
   }
 }
 
+/* PORTFOLIO RISE N GRIND PAGE - PORTFOLIO RISE N GRIND PAGE */
+
 /* Portfolio Post */
 
 .portfolio-item-containers {
@@ -681,92 +683,16 @@ footer {
   height: 38vw;
   object-fit: cover;
 }
-.o {
-  color: black;
-}
-.info-container {
-  display: flex;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  padding: 5vw;
-  gap: 10%;
-}
-.info-container-shades {
-  display: flex;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  padding: 5vw;
-  gap: 20%;
-}
-.info-container-logo {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  gap: 0;
-}
-.info-break-logo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 50px;
-}
-.info-break {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  gap: 50%;
-}
-.info-container-row {
-  flex-direction: column;
-  align-items: center;
-}
-.info-img {
-  margin-bottom: 5%;
-}
-@media only screen and (max-width: 400px) {
-  .info-container {
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    padding: 5vw;
-    gap: 10%;
-  }
-  .info-container-shades {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    padding: 5vw;
-    gap: 20%;
-  }
-  .info-break {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    gap: 0;
-    margin: 10px;
-  }
-}
-
-/* PORTFOLIO RISE N GRIND PAGE - PORTFOLIO RISE N GRIND PAGE */
-
-/* Rise & Grind */
-
-.info-divider {
+.p-s-divider {
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: space-evenly;
   text-align: center;
-  font-size: 1.1vw;
+  font-size: 1rem;
+  font-family: masqualero, sans-serif;
+  letter-spacing: 1pt;
+  text-transform: uppercase;
 }
 hr {
   border: none;
@@ -777,146 +703,209 @@ hr {
   width: 40%;
 }
 
-.color-shade-container {
+/* PORTFOLIO RISE N GRIND PAGE - PORTFOLIO RISE N GRIND PAGE */
+
+/* Rise & Grind */
+
+.p-s-1-containers {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.p-s-1-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.p-s-1-color-containers {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.p-s-1-color-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  padding: 5%;
+}
+.p-s-1-patterns-containers {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.p-s-1-pattern-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.p-s-logosize {
+  width: 8vw;
+  height: auto;
+  object-fit: cover;
 }
 .color-shade {
-  height: 9vw;
-  width: 9vw;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   display: inline-block;
+  margin-bottom: 20%;
 }
-.raw {
+.pattern-margin {
+  margin-bottom: 20%;
+}
+.cc-raw {
   background-color: #005757;
 }
-.mocha {
+.c-raw {
+  color: #005757;
+}
+.cc-mocha {
   background-color: #8a5956;
 }
-.latte {
+.c-mocha {
+  color: #8a5956;
+}
+.cc-latte {
   background-color: #d99e80;
 }
-.irish {
+.c-latte {
+  color: #d99e80;
+}
+.cc-irish {
   background-color: #f6c65d;
 }
-.cs-title {
-  margin-top: 3vw;
-  font-size: 1.5vw;
-  font-family: "pain-de-mie", sans-serif;
+.c-irish {
+  color: #f6c65d;
 }
-.cs-number {
-  font-size: 1.5vw;
-  font-family: "pain-de-mie", sans-serif;
-}
-.font-paindm {
-  font-family: "pain-de-mie", sans-serif;
-  font-size: 2vw;
-  font-weight: 400;
+.c-title {
+  font-family: pain-de-mie, sans-serif;
   font-style: normal;
-  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
 }
-.font-masq {
-  font-family: "masqualero", sans-serif;
-  font-size: 1.7vw;
+.p-s-5-title1 {
+  font-family: pain-de-mie, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
   text-align: center;
+  text-transform: uppercase;
 }
-.font-masq-text {
-  font-family: "masqualero", sans-serif;
-  font-size: 1.2vw;
-  line-height: 1.8vw;
+.p-s-5-title2 {
+  font-family: masqualero, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
   text-align: center;
+  text-transform: uppercase;
 }
-.row {
+.p-s-6-container {
+  display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20%;
 }
-.info-img {
-  width: 80px;
+.p-s-6-img {
+  padding: 5%;
+}
+.p-s-6-text {
+  padding-bottom: 10%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .p-s-logosize {
+    width: 15vw;
+  }
+  .p-s-1-container {
+    padding: 5%;
+  }
+  .p-s-1-color-containers {
+    padding: 5%;
+  }
+  .p-s .p-s-1-color-container {
+    padding: 5%;
+  }
+  .p-s-1-pattern-container {
+    padding: 5%;
+  }
+  .color-shade {
+    height: 100px;
+    width: 100px;
+  }
+  .p-s-divider {
+    font-size: 0.7rem;
+  }
+  .c-title {
+    font-size: 1.5rem;
+  }
+  .p-s-5-title1 {
+    font-size: 1.5rem;
+  }
+  .p-s-5-title2 {
+    font-size: 1.2rem;
+  }
+  .p-s-6-container {
+    margin: 0 10%;
+  }
+  hr {
+    width: 40%;
+    margin: 5% 0;
+  }
 }
 @media only screen and (max-width: 400px) {
-  .info-divider {
+  .p-s-logosize {
+    width: 18vw;
+  }
+  .p-s-1-container {
+    padding: 8%;
+  }
+  .p-s-1-color-containers {
+    flex-wrap: wrap;
+    padding: 8%;
+  }
+  .p-s .p-s-1-color-container {
+    padding: 8%;
+  }
+  .p-s-1-patterns-containers {
+    flex-wrap: wrap;
+  }
+  .p-s-1-pattern-container {
+    padding: 8%;
+  }
+  .color-shade {
+    height: 80px;
+    width: 80px;
+  }
+
+  .c-title {
+    font-size: 1.2rem;
+  }
+  .p-s-5-title1 {
+    font-size: 1.4rem;
+  }
+  .p-s-5-title2 {
+    font-size: 1.1rem;
+  }
+  .p-s-6-container {
+    margin: 0 10%;
+  }
+  .p-s-divider {
     font-size: 0.7rem;
   }
   hr {
     width: 30%;
     margin: 5% 0;
   }
-  .color-shade {
-    height: 70px;
-    width: 70px;
-  }
-  .cs-title {
-    margin-top: 3vw;
-    font-size: 1.1rem;
-  }
-  .cs-number {
-    font-size: 1rem;
-  }
-  .info-img {
-    width: 80px;
-    margin-bottom: 10%;
-  }
-  .font-paindm {
-    font-size: 0.8rem;
-  }
-  .font-masq {
-    font-size: 0.7rem;
-  }
-  .font-masq-text {
-    font-family: "masqualero", sans-serif;
-    font-size: 1.2vw;
-    line-height: 1.8vw;
-    text-align: center;
-  }
-}
-
-/* PORTFOLIO IMAGIDICE PAGE - PORTFOLIO IMAGIDICE PAGE */
-
-/* Imagidice */
-
-.imagidice-title {
-  margin-top: 3vw;
-  font-size: 1.5vw;
-  font-family: "Nunito", sans-serif;
-  font-weight: 900;
-}
-.imagidice-number {
-  font-size: 1.5vw;
-  font-family: "Nunito", sans-serif;
-  font-weight: 900;
-}
-.galaxy {
-  background-color: #373756;
-}
-.stellar {
-  background-color: #1e1e2d;
-}
-.nebula {
-  background-color: #00ffff;
-}
-.corona {
-  background-color: #ffd500;
-}
-.i-galaxy {
-  color: #373756;
-}
-.i-stellar {
-  color: #1e1e2d;
-}
-.i-nebula {
-  color: #00ffff;
-}
-.i-corona {
-  color: #ffd500;
-}
-.font-nunito {
-  font-family: "Nunito", sans-serif;
-  font-size: 2vw;
-  font-weight: 900;
-  font-style: normal;
-  text-align: center;
-}
-.portfolio-about-text {
-  width: 50%;
 }
